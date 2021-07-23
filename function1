@@ -1,4 +1,8 @@
 function toCelsius(fahrenheit) {
   execution.setVariable("Input", fahrenheit);
+  toText();
   return (5/9) * (fahrenheit-32);
+}
+function toText() {
+  execution.setVariable("Output", "Javascript");
 }
