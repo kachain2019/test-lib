@@ -6,3 +6,12 @@ function toCelsius(fahrenheit) {
 function toText() {
   execution.setVariable("Output", "Javascript");
 }
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+    execution.setVariable("Output", this.firstName + " " + this.lastName);
+  }
+};
