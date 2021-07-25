@@ -12,6 +12,6 @@ const person = {
   id: 5566,
   fullName: function() {
     execution.setVariable("Output", firstName + " " + this.lastName); 
-    return this.firstName + " " + this.lastName;
+    return firstName + " " + lastName;
   }
 };
